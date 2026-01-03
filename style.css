@@ -1,0 +1,59 @@
+body {
+  background-color: #0d1a2d;
+  color: white;
+  font-family: Figtree;
+}
+.card {
+  width: 100%;
+  max-width: 350px;
+  height: 600px;
+  background-color: #0d1726;
+  position: fixed;
+  margin: auto;
+  inset: 0;
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.3),
+    -10px -10px 10px rgba(0, 0, 0, 0.1);
+}
+.description {
+  color: hsl(0, 0%, 42%);
+  font-weight: 600;
+  font-size: 20px;
+}
+.equilibrium {
+  width: 100%;
+  border-radius: 12px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.grid-item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.sub-title {
+  color: hsl(0, 0%, 42%);
+  font-weight: 500;
+}
+.profile {
+  width: 10%;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.name {
+  color: hsl(0, 0%, 42%);
+  font-weight: 600;
+}
+.number {
+  color: #00fff8;
+  font-weight: 500;
+}
